@@ -1,11 +1,15 @@
 ﻿using AplikacjaGIt2.Entities;
 using AplikacjaGIt2.Repositories;
 using Generyki1;
+using Generyki1.DataProviders;
+using Generyki1.Entities;
 using Microsoft.Extensions.DependencyInjection;
 
 var services = new ServiceCollection();
 services.AddSingleton<IApp, AppBase>();
 services.AddSingleton<IRepository<Emplayee>, ListRepository<Emplayee>>();
+services.AddSingleton<IRepository<Car>,ListRepository<Car>>();
+services.AddSingleton<ICarsProvider, CarsProviderBase>();
 
 
 var serviceProvider = services.BuildServiceProvider();
