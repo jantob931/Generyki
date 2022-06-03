@@ -1,7 +1,7 @@
-﻿using AplikacjaGIt2.Entities;
-using AplikacjaGIt2.Repositories;
+﻿using Generyki1.Data.Entities;
+using Generyki1.Data.Repositories;
 
-namespace Generyki1.Repositories.Extensions
+namespace Generyki1.Data.Repositories.Extensions
 {
     public static class RepositoryExtensions
     {

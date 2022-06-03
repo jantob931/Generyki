@@ -1,8 +1,8 @@
-﻿namespace AplikacjaGIt2.Repositories;
-using AplikacjaGIt2.Entities;
-using AplikacjaGIt2.Repositories;
+﻿namespace Generyki1.Data.Repositories;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
+using Generyki1.Data.Entities;
+using Generyki1.Data.Repositories;
 
 public class SqlRepository<T> : IRepository<T> where T : class, IEntity,new()
 {

@@ -1,9 +1,8 @@
-﻿using AplikacjaGIt2.Entities;
-using AplikacjaGIt2.Repositories;
-using Generyki1;
-using Generyki1.DataProviders;
-using Generyki1.Entities;
+﻿using Generyki1;
 using Microsoft.Extensions.DependencyInjection;
+using Generyki1.Components.DataProviders;
+using Generyki1.Data.Entities;
+using Generyki1.Data.Repositories;
 
 var services = new ServiceCollection();
 services.AddSingleton<IApp, AppBase>();

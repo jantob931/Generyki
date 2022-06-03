@@ -1,7 +1,7 @@
-﻿using AplikacjaGIt2.Entities;
-using System.Text;
+﻿using System.Text;
+using Generyki1.Data.Entities;
 
-namespace Generyki1.Entities
+namespace Generyki1.Data.Entities
 {
     public class Car : EntitiesBase
     {

@@ -1,4 +1,5 @@
-﻿namespace AplikacjaGIt2.Entities
+﻿using Generyki1.Data.Entities;
+namespace Generyki1.Data.Entities
 {
     public abstract class EntitiesBase : IEntity
     {

@@ -1,6 +1,7 @@
-﻿namespace AplikacjaGIt2.Data; 
+﻿namespace Generyki1.Data; 
 using Microsoft.EntityFrameworkCore;
 using Entities;
+using Generyki1.Data.Entities;
 public class AplikacjaDbContext : DbContext 
 {
     public DbSet<Emplayee> Employees => Set<Emplayee>();

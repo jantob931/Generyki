@@ -1,6 +1,6 @@
-﻿using AplikacjaGIt2.Entities;
+﻿using Generyki1.Data.Entities;
 
-namespace AplikacjaGIt2.Repositories
+namespace Generyki1.Data.Repositories
 {
     public interface IWriteRepository<in T> where T : class, IEntity
     {

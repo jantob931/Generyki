@@ -1,7 +1,7 @@
-﻿using AplikacjaGIt2.Entities;
-using System.Text.Json;
+﻿using System.Text.Json;
+using Generyki1.Data.Entities;
 
-namespace Generyki1.Entities.Extensions;
+namespace Generyki1.Data.Entities.Extensions;
 
 public static class EntityExtentions
 {

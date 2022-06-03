@@ -1,4 +1,4 @@
-﻿namespace AplikacjaGIt2.Entities
+﻿namespace Generyki1.Data.Entities
 {
     public class Manager : Emplayee
     {

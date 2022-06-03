@@ -1,11 +1,11 @@
-﻿using Generyki1.Entities;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Generyki1.Data.Entities;
 
-namespace Generyki1.DataProviders.Extensions
+namespace Generyki1.Components.DataProviders.Extensions
 {
     public static class CarsHelper
     {
