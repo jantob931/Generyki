@@ -1,4 +1,5 @@
 ﻿using Generyki1.Components.Csv_Reader.Models;
+using System.Globalization;
 
 namespace Generyki1.Components.Csv_Reader.extensions
 {
@@ -15,7 +16,7 @@ namespace Generyki1.Components.Csv_Reader.extensions
                     Year = int.Parse(columns[0]),
                     Manufacturer = columns[1],
                     Name = columns[2],
-                    Displacement = double.Parse(columns[3]),
+                    Displacement = double.Parse(columns[3], CultureInfo.InvariantCulture),
                     Cyliders = int.Parse(columns[4]),
                     City = int.Parse(columns[5]),
                     Highway = int.Parse(columns[6]),

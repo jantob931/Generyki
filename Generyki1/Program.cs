@@ -3,13 +3,14 @@ using Microsoft.Extensions.DependencyInjection;
 using Generyki1.Components.DataProviders;
 using Generyki1.Data.Entities;
 using Generyki1.Data.Repositories;
+using Generyki1.Components.Csv_Reader;
 
 var services = new ServiceCollection();
 services.AddSingleton<IApp, AppBase>();
 services.AddSingleton<IRepository<Emplayee>, ListRepository<Emplayee>>();
 services.AddSingleton<IRepository<Car>,ListRepository<Car>>();
 services.AddSingleton<ICarsProvider, CarsProviderBase>();
-
+services.AddSingleton<ICsvReader, CsvReader>();
 
 var serviceProvider = services.BuildServiceProvider();
 var app = serviceProvider.GetRequiredService<IApp>();
